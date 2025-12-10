@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.base{
+    width: 375px;
+    height: 812px;
+    border: 3px solid;
+    border-radius: 10px;
+    background-image: url(../Img/branches-8612695_1920.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.info1{
+    width: 152px;
+    height: 255px;
+    background-color: rgba(255,255,255,0.6);
+    transform: translate(20px,70px);
+    margin-top: 50px;
+}
+
+.info2{
+    width: 152px;
+    height: 255px;
+    background-color: rgba(255,255,255,0.6);
+    transform: translate(200px,-185px);
+}
+
+.info3{
+    width: 152px;
+    height: 255px;
+    background-color: rgba(255,255,255,0.6);
+    transform: translate(200px,-140px);
+}
+
+.info4{
+    width: 152px;
+    height: 255px;
+    background-color: rgba(255,255,255,0.6);
+    transform: translate(20px,-395px);
+}
+
+.img1{
+    background-image: url(../Img/africano.jpg);
+    width: 119px;
+    height: 114px;
+    background-size: cover;
+    transform: translate(15px,10px);
+}
+
+.img2{
+    background-image: url(../Img/morado.jpg);
+    width: 119px;
+    height: 114px;
+    background-size: cover;
+    transform: translate(15px,10px);
+}
+
+.img3{
+    background-image: url(../Img/nopal.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 119px;
+    height: 114px;
+    background-size: cover;
+    transform: translate(15px,10px);
+}
+
+.img4{
+    background-image: url(../Img/africano.jpg);
+    width: 119px;
+    height: 114px;
+    background-size: cover;
+    transform: translate(15px,10px);
+}
+
+.txt{
+    font-family: arial, "Segoe UI";
+    transform: translate(10px,30px);
+    font-size: 13px;
+}
+
+.cerrar{
+    background-image: url(../Img/Screenshot_2025-03-10_105105-removebg-preview.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 35px;
+    width: 50px;
+    transform: translate(300px,35px);
+    cursor: pointer;
+}
+
+.buscar{
+    width: 263px;
+    height: 49px;
+    background-color: white;
+    border-radius: 25px;
+    transform: translate(55px,80px);
+}

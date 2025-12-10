@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.base{
+    width: 375px;
+    height: 812px;
+    border: 3px solid;
+    border-radius: 10px;
+    background-image: url(../../Img/branches-8612695_1920.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.back{
+    width: 0;
+    height: 0;
+    border-top: 18px solid transparent;
+    border-right: 36px solid #FFC700;
+    border-bottom: 18px solid transparent;
+    transform: translate(20px,20px);
+}
+
+
+.ancla{
+    text-decoration: none;
+}
